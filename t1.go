@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	
 )
 
 //返回a、b中的最大值

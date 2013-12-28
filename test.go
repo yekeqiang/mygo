@@ -1,8 +1,12 @@
 package main
 
+// import (
+// 	"fmt"
+// 	"runtime"
+// )
 import (
-	"fmt"
-	"runtime"
+   "fmt"
+   "runtime"
 )
 
 func say(s string) {
@@ -11,6 +15,7 @@ func say(s string) {
 		fmt.Println(s)
 	}
 }
+
 
 func main() {
 	go say("world")
